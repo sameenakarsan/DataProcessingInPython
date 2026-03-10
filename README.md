@@ -1,7 +1,8 @@
-# Data Processing in Python (Part 2)
+# Data Processing in Python
 
 **Click one of these:**
 [![Open student version in Colab](https://img.shields.io/badge/Open%20in%20Colab-Student%20version-blue?logo=googlecolab)](https://colab.research.google.com/github/QLS-MiCM/DataProcessingInPython/blob/main/Exercises/scripts/DataProcessingPython.ipynb)
+[![Open compact student version in Colab](https://img.shields.io/badge/Open%20in%20Colab-%20Compact%20student%20version-blue?logo=googlecolab)](https://colab.research.google.com/github/QLS-MiCM/DataProcessingInPython/blob/main/Exercises/scripts/DataProcessingPythonCompact.ipynb)
 [![Open solutions version in Colab](https://img.shields.io/badge/Open%20in%20Colab-Solutions%20version-blue?logo=googlecolab)](https://colab.research.google.com/github/QLS-MiCM/DataProcessingInPython/blob/main/Exercises/solutions/DataProcessingPython.ipynb)
 
 ## Overview
@@ -18,20 +19,15 @@ By the end of this workshop, you should be able to:
 4. Use pandas to represent data stored in tables.
 5. Approach a new package and explore its documentation and examples.
 
-## Prerequisites
+## Requirements
 
 * Basic knowledge of Python is required.
-* Attendees must be comfortable using variables for simple data types,
-  as well as collections. Attendees should also be comfortable with
-  loops and control flow and be familiar with the basics of using
-  functions in Python.
+* Attendees must be comfortable using variables for simple data types, as well as collections. Attendees should also be comfortable with loops and control flow and be familiar with the basics of using functions in Python.
 * To be able to participate in the exercises, participants must either:
-  * Have a local installation of Python and Jupyter notebooks.
-     Microsoft Visual Studio Code with the Python extension installed
-     can also be used to run the Notebook.
-  * Have a Google Account (to run in-browser as a Colab notebook)
+  * **(Preferred)** Have a Google Account to run in-browser as a Colab notebook
+  * Have a local installation of Python and software to edit Jupyter notebooks (e.g., Jupyter Lab, Microsoft Visual Studio Code, PyCharm)
 
-## Setup Information
+## Software
 
 This workshop is intended to be interactive. Before the workshop, please download the materials from this repository. You can download the material as a ZIP file using the green button higher up on this page, or you can simply clone this repository by typing the following in a terminal:
 
@@ -39,70 +35,27 @@ This workshop is intended to be interactive. Before the workshop, please downloa
 git clone https://github.com/QLS-MiCM/DataProcessingInPython.git
 ```
 
-### Requirements
-
-To take full advantage of this interactive workshop, you must have access to a Python environment and Jupyter Lab.
-
-You must also install the following packages:
+In your Python environment, you must have the following packages installed:
 
 * NumPy
 * Matplotlib
 * pandas
 
-#### Local
-
-The required steps depend on how you installed Python:
-
-* **(Recommended)** If you installed **minconda**, you can easily install all these packages by running the following on the command line:
-
-```shell
-conda install -c conda-forge jupyterlab numpy matplotlib pandas -y
-```
-
-* If you installed Python from the official website, you can easily install Jupyter using `pip` by running the following on the command line:
-
-```shell
-pip install jupyterlab numpy matplotlib pandas
-```
-
-* If you installed **Anaconda**, you already have everything you need installed.
-
-For more details on installing Jupyter Lab, see <https://jupyter.org/install>.
-
-Once you have Jupyter installed, open the `Data-Processing-in-Python` folder on your computer and launch Jupyter Lab by typing:
-
-```shell
-jupyter lab
-```
-
-Then you can open the Jupyter notebook files in the `Exercises/scripts` and `Exercises/solutions` folders.
-
-#### Cloud
+## Links to Colab
 
 If you don't want to install anything locally, you can open the workshop materials using Google Colab:
 
 * Student version (with blank fields): <https://colab.research.google.com/github/QLS-MiCM/DataProcessingInPython/blob/main/Exercises/scripts/DataProcessingPython.ipynb>
+* Compact student version (with blank fields and shorter explanations): <https://colab.research.google.com/github/QLS-MiCM/DataProcessingInPython/blob/main/Exercises/scripts/DataProcessingPythonCompact.ipynb>
 * Solution version (filled out): <https://colab.research.google.com/github/QLS-MiCM/DataProcessingInPython/blob/main/Exercises/solutions/DataProcessingPython.ipynb>
 
-> &#x26A0; **Warning:** To configure for Google Colab, make sure to set `using_colab = True` in the first code cell and run that cell to download all the data files.
-
-## Outline
-
-*For a more detailed outline, see [Outline/Outline.md](Outline/Outline.md).*
-
-1. **Module 1 -- Modules and Packages**
-2. **Module 2 -- Introduction to NumPy Arrays**
-3. **Module 3 -- Visualising Data with Matplotlib**
-4. **Module 4 -- Intro to Tabular Data with Pandas**
-5. **Module 5 -- A Brief Guide to Exploring the Unknown**
+> &#x26A0; **Warning:** Make sure that `using_colab = True` in the first code cell and run that cell to download all the data files required for this workshop.
 
 ## References
 
-In developing this workshop, I largely relied on the documentation of the various projects discussed, including NumPy, Matplotlib, pandas, conda and pip, as well as the official Python documentation. I've provided links to these projects in the interactive Jupyter notebook. I've also referenced a few useful other tutorials throughout the notebook.
+This workshop material relies heavily on the documentation of the various projects discussed, including NumPy, Matplotlib, pandas, conda and pip, as well as the official Python documentation. Links to relevant documentation pages are provided throughout the Jupyter notebook. There are also references to a few other useful tutorials.
 
-This workshop would also not have been possible without the professors and others who helped me on my Python journey.
-
-This workshop is based on my previous iterations of this workshop (as **Intermediate Python**) and my **Intro to Python** workshop, which can be found at the following repositories:
+This workshop is based on previous iterations of this workshop (as **Intermediate Python**) and the **Intro to Python** workshop, which can be found at the following repositories:
 
 * Intro to Python:
   * [Winter 2025](https://github.com/bzrudski/Intro-to-Python)
